@@ -11,14 +11,14 @@ bot = commands.Bot(command_prefix='.', intents=intents)
 if not os.path.exists("checker"):   
     os.makedirs("checker")
 
-TOKEN = 'hhh'
+TOKEN = 'MTI4NDQ4OTMyMjQxODE0NzM0OQ.GTMZR8.CVgWq7MWo5DQhTkIcZzqhDG6ZxTrBeBZGyy420'
 
 @bot.event
 async def on_message(message):
     if message.author.bot:
         return
     
-    if message.channel.id != 1292476831152476180:
+    if message.channel.id != 1276961272495214704:
         return
 
     if message.attachments:
